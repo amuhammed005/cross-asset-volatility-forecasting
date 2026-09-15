@@ -216,3 +216,51 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ==============================================================================
+# Project-Specific Ignores (Your Architecture)
+# ==============================================================================
+# Ignore the virtual environment directory
+.venv/
+venv/
+ENV/
+
+# Ignore the SQLite database file inside the database/ directory at runtime
+database/*.sqlite
+database/*.db
+
+# Ignore saved serialized machine learning models inside the models/ directory
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Ignore localized configuration environment files (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+
+# ==============================================================================
+# Python & OS General Ignores
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
