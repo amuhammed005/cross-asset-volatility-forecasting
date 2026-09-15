@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+yfinance
+arch
+matplotlib
+statsmodels
+joblib
+pydantic
+pydantic-settings
+pytest
